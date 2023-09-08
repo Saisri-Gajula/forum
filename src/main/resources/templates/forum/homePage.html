@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forum</title>
+<style>
+	.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar button {
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.navbar button:hover {
+  color: #0078d4;
+}
+.left-frame {     
+
+width: 30%; /* Set the width to 30% of the available width */   
+
+ background-color: #f0f0f0; /* Add your desired background color */   
+
+ float: left; /* Float the left frame to the left */    
+
+height: 100%; /* Make sure it takes the full height of the viewport */
+
+}
+</style>
+
+</head>
+<!--<body>-->
+<!--	<h1>Instagram</h1>-->
+<!--	<form method="post" action="#" th:action="@{/forum/post/add}" th:object="${postForm}">-->
+<!--		<li th:each="post : ${Posts}">-->
+<!--				<p th:text="${post.author}"></p>-->
+<!--				<p th:text="${post.content}"></p>-->
+<!--				<p th:text="${post.CreateNewDate}"></p>-->
+<!--		</li>-->
+<!--		<label for="content">Content</label>-->
+<!--		<textarea id="content" name="content" th:field="*{content}"></textarea>-->
+<!--		<input type="hidden" th:field="*{userId}">-->
+<!--		<input type="submit" value="Create!">-->
+<!--	</form>-->
+     
+    <frameset cols = "30%,70%" method="post" action="#" th:action="@{/forum/homepage}">
+		<frame name = "left" > 
+        <div class="left-frame">	
+			
+			<button>&#x2302;</button><br><br>
+			<button>&#x1F50E;&#xFE0E;</button><br><br>
+			<button>&#x25A1;&#x002B;</button><br><br>
+			<button>&#x1F464;</button><br><br>
+		</div> 
+        
+        <frame name = "right" src="https://prodapt.ipearl.ai/dashboard" >      
+        <noframes>
+            <body>The browser you are working does
+            not support frames.</body>
+        </noframes>
+    </frameset>
+     <frameset rows="50%,50%">
+  	<frame  src="https://www.javatpoint.com/html-table">
+  	<frame  src="https://www.javatpoint.com/css-table">	
+   </frameset>
+	
+	
+<!--</body>-->
+</html>
