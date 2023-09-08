@@ -19,6 +19,7 @@ Footer – The footer section includes various interactive buttons and links.
 
 These features are designed to offer a flexible and user-friendly experience, ensuring effective use of the forum. The homepage serves as a gateway to showcase these features.
 
+## HomePage Design
 ![Home Page Design](https://github.com/Saisri-Gajula/forum/blob/main/MicrosoftTeams-image%20(1).png)
 
 ##  Implementation Strategy:
