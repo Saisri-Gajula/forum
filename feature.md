@@ -1,5 +1,6 @@
 # Homepage Design: Enhancing User Interaction
-
+## Overview
+A user logs into their account, the page is directed to the homepage. This homepage displays posts from the user's favorite authors, as well as popular posts. Additionally, users have the capability to interact with these posts by liking, commenting, saving, or reporting them.
 ## Design Features:
 Homepage – Seamless Integration of Elements: Logo, Navigation, Headline, CTA, Photos, Text Content, and Footer.
 
